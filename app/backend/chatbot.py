@@ -1,6 +1,10 @@
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
+# Modular backend architecture for scalable RAG pipeline
+
+from langchain.chains import ConversationalRetrievalChain
+
 from transformers import pipeline
 from langchain_huggingface import HuggingFacePipeline
 
