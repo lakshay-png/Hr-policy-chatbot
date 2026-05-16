@@ -2,6 +2,10 @@
 
 AI-powered HR Policy Assistant built using LangChain, FAISS, Hugging Face, and Streamlit.
 
+## RAG Workflow
+
+This chatbot uses Retrieval-Augmented Generation (RAG) to retrieve relevant HR policy information from uploaded PDF documents before generating responses.
+
 ## Features
 
 * Conversational HR policy chatbot
