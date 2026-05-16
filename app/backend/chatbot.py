@@ -18,6 +18,8 @@ def create_chatbot(vectorstore):
 
     llm = HuggingFacePipeline(pipeline=pipe)
 
+    # Prompt engineering for grounded HR policy responses
+
     template = """
     You are an intelligent HR assistant.
 
