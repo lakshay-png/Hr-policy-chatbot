@@ -4,6 +4,7 @@ from app.backend.embeddings import get_embeddings
 def create_vectorstore(chunks):
     embeddings = get_embeddings()
 
+# FAISS vector database initialized for semantic similarity search
     vectorstore = FAISS.from_documents(
         documents=chunks,
         embedding=embeddings
