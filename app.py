@@ -53,6 +53,7 @@ with st.sidebar:
 
             for file in uploaded_files:
 
+                os.makedirs("uploads", exist_ok=True)
                 file_path = os.path.join("uploads", file.name)
 
                 with open(file_path, "wb") as f:
